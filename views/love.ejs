@@ -1,0 +1,9 @@
+<%= include partials/header %>
+<link rel="stylesheet" href="/app.css">
+<h1>You're in love with <%- thingVar %> </h1>
+
+<% if(thingVar == "rusty") { %>
+    <p>Good Choice!, Rusty Is the best</p>
+<% } %>    
+<p>P.S this is the love.ejs file</p>
+<%= include partials/footer %>
